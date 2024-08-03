@@ -73,6 +73,8 @@ body {
 
 .header_section .container {
   padding: 0;
+  /* position: fixed; */
+  background-color: #eae6f5;
 }
 
 .header_section .nav_container {
@@ -343,7 +345,7 @@ a:focus {
 }
 
 .service_section .service_container .box .img-box img {
-  width: 90px;
+  width: 150px;
 }
 
 .service_section .service_container .box .detail-box {

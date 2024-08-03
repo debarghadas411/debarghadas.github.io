@@ -59,11 +59,11 @@
                 <li class="nav-item">
                   <a class="nav-link" href="#education_section"> Education </a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#project_section"> Projects </a>
-                </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                   <a class="nav-link" href="#skill_section"> Skills </a>
+                </li> -->
+                <li class="nav-item">
+                  <a class="nav-link" href="#tool_section"> Tools/Skills </a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#contact_section"> Contact </a>
@@ -82,15 +82,15 @@
           <div class="col-md-6 ">
             <div class="detail_box">
               <h1>
-                Electrical <br>
-                Service <br>
-                Providers
+                'Data Science' <br> is all about asking interesting questions <br> based on the data you have—<br>or often the data you don’t have.
               </h1>
-              <p>
-                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem
+              <p style="text-align: right;">
+               <s>―Sarah Jarvis</s><br>
+               -Debargha Das &#128540;
               </p>
-              <a href="" class="">
-                Contact Us
+              <a href="https://drive.google.com/uc?export=download&id=1Lt8VzfdQme7lM_SgRpTh8yFLc1YAPAFn" class="">
+                Download Resume
+              </a>
             </div>
           </div>
           <div class="col-lg-5 col-md-6 offset-lg-1">
@@ -100,17 +100,17 @@
                   <div class="carousel-inner">
                     <div class="carousel-item active">
                       <div class="img-box">
-                        <img src="{{ url_for('static', filename='images/slider-img.jpg') }}" alt="">
+                        <img src="{{ url_for('static', filename='images/myself.jpg') }}" alt="">
                       </div>
                     </div>
                     <div class="carousel-item">
                       <div class="img-box">
-                        <img src="{{ url_for('static', filename='images/slider-img.jpg') }}" alt="">
+                        <img src="{{ url_for('static', filename='images/myself2.jpg') }}" alt="">
                       </div>
                     </div>
                     <div class="carousel-item">
                       <div class="img-box">
-                        <img src="{{ url_for('static', filename='images/slider-img.jpg') }}" alt="">
+                        <img src="{{ url_for('static', filename='images/myself3.jpg') }}" alt="">
                       </div>
                     </div>
                   </div>
@@ -152,7 +152,9 @@
               Indraprastha Institute of Information Technology
             </h5>
             <p>
-              There are many variations of passages of Lorem Ipsum available,
+              Graduated with MTech. in Computer Science and Engineering (2019-2021)<br>
+              CGPA : 8.19<br>
+
             </p>
           </div>
         </div>
@@ -165,7 +167,8 @@
               Institute of Engineering & Management
             </h5>
             <p>
-              There are many variations of passages of Lorem Ipsum available,
+              Graduated with BTech. in Computer Science and Engineering (2015-2019)<br>
+              CGPA : 8.92<br>
             </p>
           </div>
         </div>
@@ -178,7 +181,8 @@
               Bholananda National Vidyalaya
             </h5>
             <p>
-              There are many variations of passages of Lorem Ipsum available,
+              Completed High School (2013-2014)<br>
+              12th GRADE Perentage : 92.8%<br>
             </p>
           </div>
         </div>
@@ -191,7 +195,8 @@
               Douglas Memorial Higher Secondary School
             </h5>
             <p>
-              There are many variations of passages of Lorem Ipsum available,
+              Completed Secondary School<br>(2007-2013)<br>
+              10th GRADE Perentage : 94.33%<br>
             </p>
           </div>
         </div>
@@ -216,35 +221,33 @@
       </div> -->
     </div>
   </section>
-  <!-- end service section -->
+  <!-- end education section -->
 
   <!-- Experience section -->
   <section class="about_section layout_padding" id="experience_section">
     <div class="container">
+      <div class="heading_container">
+        <h2>
+          Experience
+        </h2>
+        <img src="{{ url_for('static', filename='images/mast_clipart_1.png') }}" alt="">
+      </div>
       <div class="row">
         <div class="col-md-6">
           <div class="detail-box">
-            <div class="heading_container">
-              <h2>
-                Experience
-              </h2>
-              <img src="{{ url_for('static', filename='images/mast_clipart_1.png') }}" alt="">
-            </div>
             <div>
               <div class="heading_container">
-                <h4 style="margin-top: 20px; padding: 5px">
-                FAST RETAILING
-                </h4>
-                <img src="{{ url_for('static', filename='images/mast_clipart_1.png') }}" alt="">
+                <h5 style="margin-top: 20px; padding: 5px">
+                Fast Retailing | Senior Data Scientist<br>
+                2021 ~ Present | Tokyo, JP
+                </h5>
+                
+                <!-- <img src="{{ url_for('static', filename='images/mast_clipart_1.png') }}" alt=""> -->
               </div>
               <p style="margin: 0px; padding: 30px">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit
+                I am a <b>Senior Data Scientist</b> at Fast Retailing, leading the <b>Data Analytics Team's</b> efforts in the <b>Demand Forecasting</b> Vertical. Our key aim is to produce <b>accurate long and short-term sales forecasts</b> to streamline our supply chain management and inventory allocation. My expertise lies in <b>Time-Series Analysis, Feature Engineering, Building ML systems, and continually refining these systems to maximize performance and cost-effectiveness</b>.
               </p>
-              <a href="">
+              <a href="https://www.fastretailing.com/eng/about/">
                 About The Company
               </a>
             </div>
@@ -254,6 +257,39 @@
           <div class="img_container">
             <div class="img-box b1">
               <img src="{{ url_for('static', filename='images/fastretailing.jpg') }}" alt="" />
+            </div>
+            <!-- <div class="img-box b2">
+              <img src="{{ url_for('static', filename='images/uniqlo.jpg') }}" alt="" />
+            </div> -->
+          </div>
+
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="detail-box">
+            <div>
+              <div class="heading_container">
+                <h5 style="margin-top: 20px; padding: 5px">
+                  Jadavpur Unversity | Intern<br>
+                  June,2018~ August,2018 | Kolkata, IN
+                  </h5>
+                <!-- <img src="{{ url_for('static', filename='images/mast_clipart_1.png') }}" alt=""> -->
+              </div>
+              <p style="margin: 0px; padding: 30px">
+                During my internship at the<b> Electrical Engineering Department</b> of <b>Jadavpur University</b>, I undertook challenging projects aimed at leveraging technology to study brain activity and enhance database management. In one project, I developed a <b>Python-based application to measure subjects' response time to visual stimuli</b>, paving the way for insightful research on brain processing. Additionally, I <b>designed a user-friendly JAVA-based application to automate the ingestion of tabular data into a cloud server</b>, streamlining the management of lighting data for Indian roads.
+              </p>
+              <a href="https://jadavpuruniversity.in/about/">
+                About The University
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="img_container">
+            <div class="img-box b1">
+              <img src="{{ url_for('static', filename='images/jdv_uni.jpg') }}" alt="" />
             </div>
             <!-- <div class="img-box b2">
               <img src="{{ url_for('static', filename='images/uniqlo.jpg') }}" alt="" />
@@ -273,7 +309,7 @@
 
   <!-- Project section -->
 
-  <section class="blog_section layout_padding" id="project_section">
+  <!-- <section class="blog_section layout_padding" id="project_section">
     <div class="container">
       <div class="heading_container">
         <h2>
@@ -314,11 +350,177 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <!-- end Project section -->
+<!-- Tools section -->
+<section class="service_section layout_padding" id="tool_section">
+  <div class="container">
+    <div class="heading_container">
+      <h2>
+        Tools
+      </h2>
+      <img src="{{ url_for('static', filename='images/mast_clipart_1.png') }}" alt="">
+    </div>
 
+    <div class="service_container">
+      <div class="box">
+        <div class="img-box">
+          <img src="{{ url_for('static', filename='images/gbq.png') }}" class="img1" alt="">
+        </div>
+        <div class="detail-box">
+          <h5>
+            Google BigQuery
+          </h5>
+          <p>
+           Years of Experience : 3 years<br>
+          </p>
+        </div>
+      </div>
+      <div class="box active">
+        <div class="img-box">
+          <img src="{{ url_for('static', filename='images/gvai.png') }}" class="img1" alt="">
+        </div>
+        <div class="detail-box">
+          <h5>
+            Google Vertex AI
+          </h5>
+          <p>
+            Years of Experience : 3 years<br>
+          </p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="img-box">
+          <img src="{{ url_for('static', filename='images/gemini.png') }}" class="img1" alt="">
+        </div>
+        <div class="detail-box">
+          <h5>
+            Google Gemini
+          </h5>
+          <p>
+            Years of Experience : 1 years<br>
+          </p>
+        </div>
+      </div>
+      <div class="box ">
+        <div class="img-box">
+          <img src="{{ url_for('static', filename='images/lks.png') }}" class="img1" alt="">
+        </div>
+        <div class="detail-box">
+          <h5>
+            Looker Studio
+          </h5>
+          <p>
+            Years of Experience : 1 years<br>
+          </p>
+        </div>
+      </div>
+      <div class="box ">
+        <div class="img-box">
+          <img src="{{ url_for('static', filename='images/drbt.png') }}" class="img1" alt="">
+        </div>
+        <div class="detail-box">
+          <h5>
+            Data Robot
+          </h5>
+          <p>
+            Years of Experience : 3 years<br>
+          </p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="img-box">
+          <img src="{{ url_for('static', filename='images/tf.png') }}" class="img1" alt="">
+        </div>
+        <div class="detail-box">
+          <h5>
+            TensorFlow
+          </h5>
+          <p>
+            Years of Experience : 5 years<br>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="btn-box">
+      <a href="">
+        Read More
+      </a>
+    </div> -->
+  </div>
+</section>
+<!-- end skills section -->
 
+<section class="service_section layout_padding" id="skill_section">
+  <div class="container">
+    <div class="heading_container">
+      <h2>
+        Skills
+      </h2>
+      <img src="{{ url_for('static', filename='images/mast_clipart_1.png') }}" alt="">
+    </div>
+
+    <div class="service_container">
+      <div class="box">
+        <div class="img-box">
+          <img src="{{ url_for('static', filename='images/sql.png') }}" class="img1" alt="">
+        </div>
+        <div class="detail-box">
+          <h5>
+            SQL
+          </h5>
+        </div>
+      </div>
+      <div class="box active">
+        <div class="img-box">
+          <img src="{{ url_for('static', filename='images/stats.png') }}" class="img1" alt="">
+        </div>
+        <div class="detail-box">
+          <h5>
+            Probability & Statistics
+          </h5>
+        </div>
+      </div>
+      <div class="box">
+        <div class="img-box">
+          <img src="{{ url_for('static', filename='images/genai.png') }}" class="img1" alt="">
+        </div>
+        <div class="detail-box">
+          <h5>
+            LLMs : Fine Tuning & Prompt Tuning
+          </h5>
+        </div>
+      </div>
+      <div class="box ">
+        <div class="img-box">
+          <img src="{{ url_for('static', filename='images/dv.png') }}" class="img1" alt="">
+        </div>
+        <div class="detail-box">
+          <h5>
+            Data Visualization
+          </h5>
+        </div>
+      </div>
+      <div class="box">
+        <div class="img-box">
+          <img src="{{ url_for('static', filename='images/fe.png') }}" class="img1" alt="">
+        </div>
+        <div class="detail-box">
+          <h5>
+            Feature Engieerning
+          </h5>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="btn-box">
+      <a href="">
+        Read More
+      </a>
+    </div> -->
+  </div>
+</section>
+<!-- end skills section -->
 
   <!-- contact section -->
 
@@ -372,10 +574,18 @@
 
   <section class="info_section layout_padding" id="contact_section">
     <div class="container">
+      <div class="heading_container">
+        <h2>
+          Contact Information
+        </h2>
+        <img src="{{ url_for('static', filename='images/mast_clipart_1_wt.png') }}" alt="">
+        
+      </div>
+      
       <div class="info_contact">
         <div class="row">
           <div class="col-md-4">
-            <a href="">
+            <a href="https://maps.app.goo.gl/Qf58rg3fRn2K1f2x7" target="_blank">
               <img src="{{ url_for('static', filename='images/location-white.png') }}" alt="">
               <span>
                 4-1-3-706 OJIMA, KOTO-KU, TOKYO-TO
@@ -383,7 +593,7 @@
             </a>
           </div>
           <div class="col-md-4">
-            <a href="">
+            <a href="tel:818-03174-6332">
               <img src="{{ url_for('static', filename='images/telephone-white.png') }}" alt="">
               <span>
                 Call : (+81)8031746332
@@ -391,7 +601,7 @@
             </a>
           </div>
           <div class="col-md-4">
-            <a href="">
+            <a href="mailto:debarghadas411@gmail.com">
               <img src="{{ url_for('static', filename='images/envelope-white.png') }}" alt="">
               <span>
                 debarghadas411@gmail.com
@@ -414,27 +624,27 @@
         <div class="col-md-4 col-lg-3">
           <div class="info_social">
             <div>
-              <a href="">
+              <a href="https://www.facebook.com/debargha19118/" target="_blank">
                 <img src="{{ url_for('static', filename='images/fb.png') }}" alt="">
               </a>
             </div>
             <div>
-              <a href="">
+              <a href="https://x.com/DebarghaDas411" target="_blank">
                 <img src="{{ url_for('static', filename='images/twitter.png') }}" alt="">
               </a>
             </div>
             <div>
-              <a href="">
+              <a href="https://www.linkedin.com/in/debargha-das-69757510b/" target="_blank">
                 <img src="{{ url_for('static', filename='images/linkedin.png') }}" alt="">
               </a>
             </div>
             <div>
-              <a href="">
+              <a href="https://www.instagram.com/debargha411/" target="_blank">
                 <img src="{{ url_for('static', filename='images/instagram.png') }}" alt="">
               </a>
             </div>
             <div>
-              <a href="">
+              <a href="https://github.com/debarghadas411" target="_blank">
                 <img src="{{ url_for('static', filename='images/github.png') }}" alt="">
               </a>
             </div>
@@ -453,8 +663,8 @@
       <div class="row">
         <div class="col-lg-7 col-md-9 mx-auto">
           <p>
-            &copy; 2019 All Rights Reserved By
-            <a href="https://html.design/">Free Html Templates</a>
+            &copy; 2024 All Rights Reserved By
+            <a href="">Debargha Das</a>
           </p>
         </div>
       </div>
